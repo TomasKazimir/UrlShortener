@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>URL Shortener</h1>
+
+    <section>
+        <label for="url-input">Enter full URL:</label>
+        <input id="url-input" type="text" placeholder="https://example.com/path">
+        <button id="shorten-btn">Shorten</button>
+        <div id="shorten-result" class="result"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <label for="code-input">Short code:</label>
+        <input id="code-input" type="text" placeholder="e.g. abc123">
+        <button id="goto-btn">Go</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
